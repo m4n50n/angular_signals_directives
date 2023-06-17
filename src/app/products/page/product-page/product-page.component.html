@@ -13,7 +13,8 @@
         </div>
 
         <div class="col-auto">
-            <span appCustomLabel></span> <!-- Hemos aplicado la directiva personalizada appCustomLabel -->
+            <!-- A la hora de pasar el valor color a la directiva, en la directiva debemos tener un setter -->
+            <span appCustomLabel [color]="color">Temporal</span> <!-- Hemos aplicado la directiva personalizada appCustomLabel -->
             <!-- Llamaremos "host" al elemento donde aplicamos la directiva -->
         </div>
     </div>
