@@ -36,5 +36,7 @@ Una señal es un espacio de memoria que apunta o sabe en todo momento dónde se 
 
 Las señales es una forma simplificada de programación reactiva, por lo que también simplifica mucho los operadores de RxJs.
 
+La propiedad ***signal*** la importaremos de *@angular/core*, ya que Angular hace referencia a las señales como un nuevo tipo de primitivo, igual que si fuera string, boolean, number, etc...
+
 ### Development server
 Run npm start for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.

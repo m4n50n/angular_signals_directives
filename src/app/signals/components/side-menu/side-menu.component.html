@@ -1,5 +1,5 @@
 <ul class="list-group">
-    <li *ngFor="let item of menuItems" 
+    <li *ngFor="let item of menuItems()" 
         class="list-group-item"
         [routerLink]="item.route"
         routerLinkActive="active"
@@ -7,3 +7,10 @@
         {{ item.title }}
     </li>
 </ul>
+
+<br><br>
+
+{{ menuItems }} <!-- Esto imprimiría la referencia a la señal pero NO es la señal -->
+
+{{ menuItems() }} <!-- Así obtendríamos el valor de la señal -->
+<!-- Si aquí apuntamos a la señal y se modifica el valor de la señal en cualquier otra parte, la señal ya sabe que estoy usando aquí su valor y lo modificará -->
