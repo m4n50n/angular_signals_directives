@@ -11,9 +11,16 @@ https://angular.io/guide/signals
 ### Directivas
 Las directivas son clases que agregan comportamientos adicionales a los elementos en una aplicacion de Angular para, por ejemplo, administrar formularios, listas, estilos y lo que ven los usuarios.
 
-En esta práctica crearemos directivas personalizadas en Angular para expantir el comportamiento de elementos.
+En esta práctica crearemos directivas personalizadas en Angular para expandir el comportamiento de elementos.
 
 La idea será crear una directiva robusta que nos sirva para resumir la forma en cómo los errores en los formularios son mostrados, y así no tener que colocar infinidad de condiciones dentro del HTML.
+
+Llamaremos ***host*** al elemento sobre el que aplicaremos una directiva. Por ejemplo:
+```html
+<span appCustomLabel></span>
+```
+
+En este caso, el *span* es host de la directiva *appCustomLabel*.
 
 ### Signals
 Development server
