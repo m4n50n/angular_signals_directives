@@ -3,9 +3,12 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
 ## Docs
+- <u>Directivas</u>
 https://angular.io/guide/built-in-directives
 https://angular.io/guide/attribute-directives
 https://angular.io/guide/structural-directives
+<br>
+- <u>Signals (Señales)</u>
 https://angular.io/guide/signals
 
 ### Directivas
@@ -24,6 +27,10 @@ En este caso, el *span* es host de la directiva *appCustomLabel*.
 
 La directiva recibirá valores a través de un @Input() que funcionará como propiedad y setter.
 
-### Signals
-Development server
+### Signals (Señales)
+Angular Signals es un sistema que realiza un seguimiento granular de cómo y dónde se usa su estado en una aplicación, lo que permite que el marco optimice las actualizaciones de representación.
+
+Es una forma de llegar directamente a donde estamos usando una variable o un valor de una variable y actualizarla o renderizarla, etc...
+
+### Development server
 Run npm start for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
