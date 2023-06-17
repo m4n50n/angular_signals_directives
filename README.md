@@ -32,5 +32,9 @@ Angular Signals es un sistema que realiza un seguimiento granular de cómo y dó
 
 Es una forma de llegar directamente a donde estamos usando una variable o un valor de una variable y actualizarla o renderizarla, etc...
 
+Una señal es un espacio de memoria que apunta o sabe en todo momento dónde se está usando.
+
+Las señales es una forma simplificada de programación reactiva, por lo que también simplifica mucho los operadores de RxJs.
+
 ### Development server
 Run npm start for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
