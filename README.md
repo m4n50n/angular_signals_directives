@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Docs
 https://angular.io/guide/built-in-directives
+https://angular.io/guide/attribute-directives
+https://angular.io/guide/structural-directives
 https://angular.io/guide/signals
 
 ### Directivas
