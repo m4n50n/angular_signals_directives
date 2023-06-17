@@ -22,6 +22,8 @@ Llamaremos ***host*** al elemento sobre el que aplicaremos una directiva. Por ej
 
 En este caso, el *span* es host de la directiva *appCustomLabel*.
 
+La directiva recibirá valores a través de un @Input() que funcionará como propiedad y setter.
+
 ### Signals
 Development server
 Run npm start for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.

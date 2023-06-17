@@ -15,7 +15,7 @@ export class ProductPageComponent {
   public color: string = "green";
 
   public myForm: FormGroup = this.fb.group({
-    name: ["", [Validators.required, Validators.minLength(6), Validators.email]]
+    name: ["", [Validators.required, Validators.minLength(8), Validators.email]]
   })
 
   changeColor() {
