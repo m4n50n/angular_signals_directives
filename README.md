@@ -10,6 +10,8 @@ https://angular.io/guide/structural-directives
 <br>
 - <u>Signals (Señales)</u>
 https://angular.io/guide/signals
+https://angular.io/guide/signals#writable-signals: Señales de escritura que proporcionan una API para actualizar sus valores directamente.
+https://angular.io/guide/signals#computed-signals: Señales calculadas que derivan su valor de otras señales. Se debe especificar una función de computación.
 
 ### Directivas
 Las directivas son clases que agregan comportamientos adicionales a los elementos en una aplicacion de Angular para, por ejemplo, administrar formularios, listas, estilos y lo que ven los usuarios.
